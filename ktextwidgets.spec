@@ -17,6 +17,10 @@ BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: cmake(KF5GlobalAccel)
 BuildRequires: cmake(KF5Completion)
 BuildRequires: cmake(KF5Sonnet)
+BuildRequires: cmake(KF5ConfigWidgets)
+BuildRequires: cmake(KF5IconThemes)
+BuildRequires: cmake(KF5Service)
+BuildRequires: cmake(KF5WindowSystem)
 BuildRequires: %mklibname KF5SonnetUi -d
 BuildRequires: qmake5
 BuildRequires: extra-cmake-modules5
