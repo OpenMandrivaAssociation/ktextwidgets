@@ -23,6 +23,7 @@ BuildRequires: cmake(KF5IconThemes)
 BuildRequires: cmake(KF5Service)
 BuildRequires: cmake(KF5WindowSystem)
 BuildRequires: cmake(KF5SonnetUi)
+BuildRequires: cmake(KF5IconThemes)
 Requires: %{libname} = %{EVRD}
 
 %description
