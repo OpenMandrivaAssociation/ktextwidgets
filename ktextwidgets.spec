@@ -7,7 +7,7 @@
 
 Name: ktextwidgets
 Version:	5.46.0
-Release:	1
+Release:	2
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 Text Widgets library
 URL: http://kde.org/
@@ -51,6 +51,8 @@ The KDE Frameworks 5 Text Widgets library.
 Summary: Development files for %{name}
 Group: Development/C
 Requires: %{libname} = %{EVRD}
+Requires: cmake(KF5Sonnet)
+Requires: cmake(KF5SonnetUi)
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
