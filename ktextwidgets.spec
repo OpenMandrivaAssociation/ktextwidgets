@@ -17,6 +17,7 @@ BuildRequires: cmake(ECM)
 BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5Test)
+BuildRequires: pkgconfig(Qt5Xml)
 #(cb) causes segfaults in gwenview - no one else seems to build with this
 #BuildRequires: pkgconfig(Qt5TextToSpeech)
 BuildRequires: cmake(KF5Completion)
