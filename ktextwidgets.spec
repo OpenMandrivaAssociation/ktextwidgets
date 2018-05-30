@@ -15,6 +15,7 @@ License: GPL
 Group: System/Libraries
 BuildRequires: cmake(ECM)
 BuildRequires: pkgconfig(Qt5Core)
+BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5Test)
 #(cb) causes segfaults in gwenview - no one else seems to build with this
 #BuildRequires: pkgconfig(Qt5TextToSpeech)
