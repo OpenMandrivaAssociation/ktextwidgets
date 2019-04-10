@@ -1,4 +1,2 @@
-removed_sources:
-  ktextwidgets-5.13.0.tar.xz: a7b5d1dfe64c078229f26c42c91e14cec20f8e3c
 sources:
-  ktextwidgets-5.56.0.tar.xz: 96af9e252a4c52e8532f1d2996988c6bc4ebf44e
+  ktextwidgets-5.57.0.tar.xz: b8f5839099763fdd50c7957edd599220e845a214
