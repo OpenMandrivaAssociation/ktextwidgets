@@ -35,6 +35,7 @@ BuildRequires: cmake(KF5WindowSystem)
 BuildRequires: cmake(KF5SonnetUi)
 BuildRequires: cmake(KF5IconThemes)
 # For QCH format docs
+BuildRequires: doxygen
 BuildRequires: qt5-assistant
 Requires: %{libname} = %{EVRD}
 
