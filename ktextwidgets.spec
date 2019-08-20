@@ -3,11 +3,10 @@
 %define devname %mklibname KF5TextWidgets -d
 %define debug_package %{nil}
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
-%define _disable_lto 1
 
 Name: ktextwidgets
 Version:	5.61.0
-Release:	1
+Release:	2
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 Text Widgets library
 URL: http://kde.org/
@@ -66,10 +65,10 @@ Group: Documentation
 Suggests: %{devname} = %{EVRD}
 
 %description -n %{name}-devel-docs
-Developer documentation for %{name} for use with Qt Assistant
+Developer documentation for %{name} for use with Qt Assistant.
 
 %prep
-%setup -q
+%autosetup -p1
 %cmake_kde5
 
 %build
