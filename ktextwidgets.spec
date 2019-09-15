@@ -17,10 +17,7 @@ BuildRequires: pkgconfig(Qt5Core)
 BuildRequires: pkgconfig(Qt5Widgets)
 BuildRequires: pkgconfig(Qt5Test)
 BuildRequires: pkgconfig(Qt5Xml)
-#(cb) causes segfaults in gwenview - no one else seems to build with this
-#(bero) let's see if that's still the case, would be nice to have a11y
-# If it still causes crashes, please note the version in which it did in
-# the comment so we know when to test again...
+BuildRequires: cmake(Qt5UiPlugin)
 BuildRequires: pkgconfig(Qt5TextToSpeech)
 BuildRequires: cmake(KF5Completion)
 BuildRequires: cmake(KF5CoreAddons)
