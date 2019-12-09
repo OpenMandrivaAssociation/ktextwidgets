@@ -5,7 +5,7 @@
 %define stable %([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)
 
 Name: ktextwidgets
-Version:	5.64.0
+Version:	5.65.0
 Release:	1
 Source0: http://download.kde.org/%{stable}/frameworks/%(echo %{version} |cut -d. -f1-2)/%{name}-%{version}.tar.xz
 Summary: The KDE Frameworks 5 Text Widgets library
@@ -88,7 +88,6 @@ Qt Designer plugin for handling %{name} widgets
 %find_lang %{name}%{major}
 
 %files -f %{name}%{major}.lang
-%{_datadir}/kservicetypes5/*
 
 %files -n %{libname}
 %{_libdir}/*.so.%{major}
